@@ -1,0 +1,232 @@
+body{
+    background-color: #d0efef;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* ---------------- header ------------ */
+.header{
+    position: static;
+    padding: 35px;
+    background-color: #006666;
+}
+.left{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 67px;
+}
+
+.logo img{
+    height: 50px;
+    border-radius: 25%;
+}
+
+.center{
+    position: absolute;
+    left: 33.33%;
+    top: 0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.center .home{
+    position: absolute;
+    top: 10px;
+    left: 43%;
+}
+
+.home img{
+    height: 50px;
+    filter: invert(100%);
+}
+
+.home img:hover{
+    height: 50px;
+    filter: invert(80%);    
+}
+
+.right{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.message{
+    position: absolute;
+    right: 50%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.message img{
+    height: 40px;
+    filter: invert(100%);
+}
+
+.message img:hover{
+    filter: invert(80%);    
+}
+
+.notification{
+    position: absolute;
+    right: 40%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.notification img{
+    height: 40px;
+    filter: invert(100%);
+}
+
+.notification img:hover{
+    filter: invert(80%);    
+}
+
+.profile{
+    position: absolute;
+    right: 30%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.profile img{
+    height: 40px;
+    filter: invert(100%);
+}
+
+.profile img:hover{
+    filter: invert(80%);    
+}
+
+.logout{
+    position: absolute;
+    right: 20%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.logout img{
+    height: 37px;
+    filter: invert(100%);
+}
+
+.logout img:hover{
+    filter: invert(80%);    
+}
+
+
+/* --------------------- edit profile ------------ */
+.propic {
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.propic img {
+    border: 1px solid #212929;
+    border-radius: 100px;
+    object-fit: cover;
+    position: relative;
+    height: 180px;
+    width: 180px;
+}
+
+.form-container{
+    display: inline;
+}
+#edit-propic {
+    display: table;
+}
+#output {
+    height: 203px;
+    width: 203px;
+}
+.custom-file-input{
+    width: 115px;
+    margin: 10px 25px;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    content: 'Upload a photo';
+    display: inline-block;
+    background: #006666;
+    color: white;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    opacity: 0.9;
+}
+.custom-file-input:hover::before {
+    border-color: white;
+    opacity: 1;
+}
+
+#info-div {
+    margin: 20px 0px; 
+}
+
+#info-div > input,#info-div > textarea {
+    border: 1px solid;
+    border-radius: 4px;
+}
+table {
+    margin: auto;
+}
+td {
+    padding: 5px;
+}
+
+.form-container button{
+    width: 110px;
+    height: 40px;
+    margin: 0px 2px;
+    border-radius: 5px;
+}
+
+#updatebtn {
+
+    float: right;
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+}
+
+#cancelbtn {
+
+    float: right;
+    background-color: red;
+    color: white;
+    opacity: 0.8;
+}
+#updatebtn:hover , #cancelbtn:hover {
+    opacity: 1;
+
+}

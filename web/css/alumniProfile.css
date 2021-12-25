@@ -1,0 +1,288 @@
+body{
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* ---------------- header ------------ */
+.header{
+    position: static;
+    padding: 35px;
+    background-color: #006666;
+    overflow: hidden;
+}
+.left{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 67px;
+}
+
+.logo img{
+    height: 50px;
+    border-radius: 25%;
+}
+
+.center{
+    position: absolute;
+    left: 33.33%;
+    top: 0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.center .home{
+    position: absolute;
+    top: 10px;
+    left: 43%;
+}
+
+.home img{
+    height: 50px;
+    filter: invert(100%);
+}
+
+.home img:hover{
+    height: 50px;
+    filter: invert(80%);    
+}
+
+.right{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width: 33.33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.message{
+    position: absolute;
+    right: 40%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.message img{
+    height: 40px;
+    filter: invert(100%);
+}
+
+.message img:hover{
+    filter: invert(80%);    
+}
+
+.profile{
+    position: absolute;
+    right: 30%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.profile img{
+    height: 40px;
+    filter: invert(100%);
+}
+
+.profile img:hover{
+    filter: invert(80%);    
+}
+
+.logout{
+    position: absolute;
+    right: 20%;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.logout img{
+    height: 37px;
+    filter: invert(100%);
+}
+
+.logout img:hover{
+    filter: invert(80%);    
+}
+
+/* ---------------- profile ------------ */
+
+.btm{
+    position: absolute;
+    top: 78px;
+    height: 89%;
+    width: 100%;
+}
+
+.leftp {
+    position: absolute;   
+    top: 0%;
+    left: 8px;
+    width: 35%;
+    background-color: #d0efef; 
+    width: 35%;
+    height: 88vh;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.propic {
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid #d0efef;
+}
+
+.propic img {
+    border-radius: 100px;
+    object-fit: cover;
+    position: relative;
+    height: 180px;
+    width: 180px;
+}
+#editbtn {
+  background-color: #3d8694;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: -211px;
+  float: right;
+
+}
+.prodetail {
+    /* border: 2px solid green; */
+    max-height: 100%;
+}
+.details {
+    margin: 8px 10px;
+    border: 2px solid #d0efef;
+    text-align: center;
+}
+
+.rightp{
+    position: absolute;
+    top: 0%;
+    left: 36%;
+    width: 63.5%;
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.mainloadpost{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.loadpost{
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    clear: both;
+    border-bottom: 4px solid azure;
+    background-color: #d0efef; 
+    border-radius: 15px;
+}
+
+.udetail{
+    position: absolute;
+    left: 0%;
+    height: 82px;
+    width: 100%;
+}
+
+.udetail .upp{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    height: 60%;
+    width: 7%;
+}
+
+.upp img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.udetail .uname{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    height: 25%;
+    min-width: 30%;
+}
+
+.udetail .ptime{
+    position: absolute;
+    top: 56%;
+    left: 11%;
+    height: 12px;
+    font-size: 12px;
+}
+
+.dlt{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+
+.dlt input[type=submit]{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.postdetail{
+    position: absolute;
+    top: 82px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.postdetail .textpost{
+    position: relative;
+    left: 3%;
+    max-width: 96%;
+    word-wrap: break-word;
+    
+}
+
+.postdetail .photopost{
+    position: inherit;
+    left: 2%;
+    width: 96%;
+    height: 500px;
+}
+
+.photopost img{
+    position: absolute;
+    top: 10px;
+    max-height: 500px;
+    max-width: 100%;
+}

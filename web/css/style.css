@@ -1,0 +1,505 @@
+body {
+    
+    background-color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    top: -22%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.box {
+    width: 320px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.box h1 {
+    margin: 0;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box h2 {
+    margin: 0;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box p{
+    margin: 0;
+    color: black;
+    padding: 0;
+    font-weight: bold;
+}
+
+.box input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.box input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.box input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.box a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.box a:hover {
+    color: #eccc68;
+}
+
+
+.regbox {
+    width: 400px;
+    height: 750px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 0;
+    padding: 30px;
+    top: 70%;
+    left: 50%;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.regbox .avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    top: -14%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+
+.regbox h1 {
+    margin-top: 30px;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.regbox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.regbox input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.regbox input[type="text"],
+.regbox input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.regbox input[type="date"] {
+    width: 50%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.gender {
+    color: black;
+    background-color: navajowhite;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-weight: normal;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    font-family: inherit;
+}
+
+.gender input[type="radio"] {
+    width: auto;
+    margin-top: -7;
+}
+
+.regbox p {
+    color: black;
+}
+.regbox input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.regbox input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.regbox a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.regbox a:hover {
+    color: #eccc68;
+}
+
+.nbox {
+    width: 500px;
+    height: 350px;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.nbox h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nbox a {
+    text-decoration: none;
+    float: left;
+    color: purple;
+    padding: 14px 170px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nbox a:hover {
+    color: #eccc68;
+}
+
+.unfbox {
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 10px;
+    top: 55%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.unfbox a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.unfbox a:hover {
+    color: #eccc68;
+}
+
+.uaebox {
+    width: 500px;
+    height: 350px;    
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.uaebox h2, p {
+    text-align: center;
+}
+
+.uaebox a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.uaebox a:hover {
+    color: #eccc68;
+}
+
+.fbox {
+    width: 320px;
+    height: 220px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.fbox h3 {
+    text-align:center;
+    color:black;
+}
+
+.fbox input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.fbox input[type="text"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.fbox input[type="submit"] {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.fbox input[type="submit"]:hover {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.fpcvbox {
+    width: 320px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.fpcvbox input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.fpcvbox input[type="submit"] {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.fpcvbox input[type="submit"]:hover {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.nafbox {
+    width: 320px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.nafbox a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nafbox a:hover {
+    color: #eccc68;
+}
+
+.nubox {
+    width: 320px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
